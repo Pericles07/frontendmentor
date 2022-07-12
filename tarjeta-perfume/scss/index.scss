@@ -1,0 +1,66 @@
+body {
+    background-color:rgb(242, 242, 216);
+    
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vw;
+    
+    .card{
+        flex-direction: column;
+        height: 25rem;
+        width: 35rem;
+        border: none;
+        border-radius: 1rem;
+        .card-body{
+            flex-direction: column;
+            padding: 1.2rem;
+            p {
+                font-family:'Montserrat', sans-serif;
+                font-weight: 500;
+                color: grey;
+                font-size: 14px;
+            }
+            h2 {
+                font-family:'Fraunces', serif;
+                font-weight:700;
+                margin-left: 0;
+                line-height: 1;
+                
+            }
+            .precios{
+                display: flex;
+            .precio{
+                font-family:'Fraunces', serif; 
+                font-weight: 700;
+                font-size: 35px;
+                color: rgb(80, 114, 68);
+            }
+            .precio-2 {
+                color: gray;
+            text-decoration: line-through;
+            font-size: 10px;
+            margin: 1rem 1.5rem;
+            }
+            }
+            .btn {
+                background-color: rgb(37, 69, 36);
+                color: white;
+                padding: 2px;
+                font-family:'Montserrat', sans-serif;
+                font-weight: 500;
+                font-size: 14px;
+                width: 90%;
+                height: 45px;
+            }
+        }
+    }    
+}
+
+
+
+/*familia de fuentes: ;
+font-familia: 'Montserrat', sans-serif;*/
