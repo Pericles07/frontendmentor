@@ -1,0 +1,112 @@
+:root {
+  --Softblue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Verydarkblue: hsl(217, 54%, 11%);
+  --Verydarkblue: hsl(216, 50%, 16%);
+  --Verydarkblue: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: hsl(217deg, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  color: hsl(0deg, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 2rem;
+  height: 37rem;
+}
+.container .card {
+  padding: 1.5rem;
+  width: 20rem;
+  background-color: hsl(216deg, 50%, 16%);
+  border: none;
+  border-radius: 1rem;
+  font-size: 18px;
+}
+.container .card .imagen {
+  position: relative;
+  margin: 0 0 1rem 0;
+}
+.container .card .imagen .img-principal {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+}
+.container .card .imagen .view {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  opacity: 0;
+  background-color: hsla(178deg, 100%, 50%, 0.5);
+  border-radius: 3px;
+  transition: 0.5s;
+}
+.container .card .titulo {
+  font-weight: 600;
+  transition: 0.5s;
+}
+.container .card .texto {
+  color: hsl(215deg, 51%, 70%);
+  font-weight: 300;
+}
+.container .card .datos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .card .datos .moneda {
+  color: hsl(178deg, 100%, 50%);
+  font-weight: 300;
+}
+.container .card .datos .hora {
+  color: hsl(215deg, 51%, 70%);
+  font-weight: 300;
+}
+.container .card hr {
+  margin-top: 1rem;
+  border: 0.1px solid hsl(215deg, 32%, 27%);
+}
+.container .card .creador {
+  display: flex;
+  padding: 2px;
+}
+.container .card .creador .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 1px solid hsl(0deg, 0%, 100%);
+}
+.container .card .creador .creador-titulo {
+  color: hsl(215deg, 51%, 70%);
+  margin: 5px 8px;
+}
+.container .card .creador .creador-nombre {
+  margin: 5px 0;
+  transition: 0.5s;
+}
+
+.imagen:hover {
+  cursor: pointer;
+}
+.imagen:hover .view:hover {
+  opacity: 1;
+}
+
+.titulo:hover {
+  cursor: pointer;
+  color: hsl(178deg, 100%, 50%);
+}
+
+.creador-nombre:hover {
+  cursor: pointer;
+  color: hsl(178deg, 100%, 50%);
+}/*# sourceMappingURL=styles.css.map */
