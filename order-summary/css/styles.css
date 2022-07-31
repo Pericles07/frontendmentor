@@ -58,8 +58,9 @@ body{
 .card__plan{
     display: flex;
     align-items: center;
-    background-color: var(--Very-pale-blue);
+    background-color:var(--Very-pale-blue);
     padding: 1.2em 1em;
+    border-radius: 5px;
 }
 
 .card__icon{
@@ -71,13 +72,19 @@ body{
     color: var(--Dark-blue);
 }
 
+.card__price{
+    color: var(--Desaturated-blue);
+}
+
 .card__change{
     margin-left: auto;
     color: var(--Bright-blue);
 }
 
 .card__change:hover{
-    color: var(--Desaturated-blue);
+    color:var(--Desaturated-blue);
+    text-decoration: none;
+    transition: 2s;
 }
 .card__cta{
     display: block;
@@ -93,6 +100,7 @@ body{
 
 .card__cta:hover{
     background-color: var(--Desaturated-blue);
+    transition: 2s;
 }
 
 .card__cta--gray{
@@ -105,6 +113,7 @@ body{
 .card__cta--gray:hover{
     background-color: #fff;
     color: var(--Dark-blue);
+    transition: 2s;
 }
 
 @media (min-width:768px) {
