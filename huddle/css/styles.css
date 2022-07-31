@@ -13,6 +13,8 @@
 
 body{
     font-family: var(--font-1);
+    min-height: 100vh;
+    display: flex;
 }
 
 .hero{
@@ -153,6 +155,7 @@ body{
 
 @media (min-width:768px){
 
+
     .hero::before{
         width: 90%;
         height: 100%;
@@ -165,7 +168,6 @@ body{
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        --padding-container:20px 0 60px;
     }
 
     .hero__picture{
