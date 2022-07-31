@@ -10,11 +10,12 @@ body {
     background-color:hsl(217, 54%, 11%);
     font-family: 'Outfit', sans-serif;
     color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container{
     margin: 2rem;
-    display: flex;
-    justify-content: center;
     height: 37rem;
     .card{
     padding: 1.5rem;
